@@ -1,0 +1,110 @@
+/* General styles for the donate form */
+.donate-form {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fafafa; /* Light gray background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.donate-form h2 {
+  text-align: center;
+  color: #f39c12; /* Primary yellow color */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.donate-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.donate-form input,
+.donate-form textarea,
+.donate-form button {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.donate-form input[type="file"] {
+  padding: 0;
+}
+
+.donate-form button {
+  background-color: #f39c12; /* Primary yellow color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.donate-form button:hover {
+  background-color: #e67e22; /* Slightly darker yellow for hover effect */
+}
+
+/* Styles for donated pets list */
+.donated-pets-list {
+  margin-top: 40px;
+}
+
+.donated-pets-list h2 {
+  text-align: center;
+  font-size: 20px;
+  color: #333;
+}
+
+.donated-pets-list .donated-pet-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.donated-pets-list .donated-pet-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.donated-pets-list .donated-pet-card div {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.donated-pets-list .donated-pet-card h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.donated-pets-list .donated-pet-card p {
+  color: #666;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.donated-pets-list .donated-pet-card button {
+  background-color: #f39c12; /* Primary yellow color for withdrawal */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.donated-pets-list .donated-pet-card button:hover {
+  background-color: #e67e22; /* Darker yellow for hover */
+}
